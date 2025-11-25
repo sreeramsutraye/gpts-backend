@@ -1,2 +1,19 @@
 venv
 .env
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+# Editors
+.idea/
+.vscode/
+# OS
+.DS_Store
+Thumbs.db

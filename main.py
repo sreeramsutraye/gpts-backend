@@ -77,7 +77,7 @@ async def chat_endpoint(request: ChatRequest):
 
         try:
             model = genai.GenerativeModel(
-                model_name="gemini-2.5-flash-preview-09-2025",
+                model_name="gemini-2.5-flash",
                 generation_config=generation_config,
                 safety_settings=safety_settings,  # Apply settings here
                 system_instruction=selected_instruction,
